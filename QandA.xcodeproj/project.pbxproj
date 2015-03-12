@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8117CC581A9D75BA0043149A /* UIState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8117CC571A9D75BA0043149A /* UIState.swift */; };
 		81A4C0961A96D50A00D1DDB8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A4C0951A96D50A00D1DDB8 /* AppDelegate.swift */; };
 		81A4C0981A96D50A00D1DDB8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A4C0971A96D50A00D1DDB8 /* ViewController.swift */; };
 		81A4C09B1A96D50A00D1DDB8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81A4C0991A96D50A00D1DDB8 /* Main.storyboard */; };
@@ -26,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8117CC571A9D75BA0043149A /* UIState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIState.swift; sourceTree = "<group>"; };
 		81A4C0901A96D50A00D1DDB8 /* QandA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QandA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		81A4C0941A96D50A00D1DDB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		81A4C0951A96D50A00D1DDB8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -80,6 +82,7 @@
 				81A4C0951A96D50A00D1DDB8 /* AppDelegate.swift */,
 				81A4C0971A96D50A00D1DDB8 /* ViewController.swift */,
 				81A4C0991A96D50A00D1DDB8 /* Main.storyboard */,
+				8117CC571A9D75BA0043149A /* UIState.swift */,
 				81A4C09C1A96D50A00D1DDB8 /* Images.xcassets */,
 				81A4C09E1A96D50A00D1DDB8 /* LaunchScreen.xib */,
 				81A4C0931A96D50A00D1DDB8 /* Supporting Files */,
@@ -214,6 +217,7 @@
 			files = (
 				81A4C0981A96D50A00D1DDB8 /* ViewController.swift in Sources */,
 				81A4C0961A96D50A00D1DDB8 /* AppDelegate.swift in Sources */,
+				8117CC581A9D75BA0043149A /* UIState.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,6 +409,7 @@
 				81A4C0B11A96D50A00D1DDB8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		81A4C0B21A96D50A00D1DDB8 /* Build configuration list for PBXNativeTarget "QandATests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +418,7 @@
 				81A4C0B41A96D50A00D1DDB8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
